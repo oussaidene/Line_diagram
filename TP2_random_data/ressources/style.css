@@ -1,0 +1,49 @@
+body {
+    font: 10px sans-serif;
+  }
+  
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.line {
+    fill: none;
+    stroke: steelblue;
+    stroke-width: 1.5px;
+}
+
+.context .line {
+    stroke-width: 0.5px;
+}
+
+.brush .extent {
+    stroke: #fff;
+    fill-opacity: .125;
+    shape-rendering: crispEdges;
+}
+
+.line.highlight {
+    fill-opacity: 1;
+    stroke-opacity: 1;
+}
+.focus .line.highlight {
+    stroke-width: 3;
+}
+.context .line.highlight {
+    stroke-width: 1.0;
+}
+
+.line.fadeout {
+    fill-opacity: 0.2;
+    stroke-opacity: 0.2;
+}
+
+.chart {
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 100px;
+    display:block;
+}
